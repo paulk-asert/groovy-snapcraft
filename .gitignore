@@ -9,7 +9,7 @@ out/
 *.swp
 *~
 
-.idea
+.idea/
 *.iml
 *.ipr
 *.iws
