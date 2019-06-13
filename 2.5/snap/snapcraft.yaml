@@ -1,0 +1,67 @@
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+name: groovy
+version: "2.5.7"
+summary: The Apache Groovy programming language
+description: |
+  This package is intended to bundle the latest version of Apache
+  Groovy in the 2.5.x stream of releases.
+
+  Groovy is like a super version of Java:
+  * It supports most Java syntax but allows simpler syntax for many constructs
+  * It supports all Java libraries but provides many extensions and its own productivity libraries
+  * It has both a static and dynamic nature
+  * It has great extensibility for the language and tooling
+
+  It is free and open source and has a large community of users and developers
+  around the world.
+
+  It requires Java 7 or later Java Development Kit installed.
+
+confinement: classic
+grade: stable
+base: core18
+architectures:
+  - run-on: all
+    build-on: [amd64, i386]
+
+apps:
+  groovy:
+    command: bin/groovy
+  groovyc:
+    command: bin/groovyc
+  groovydoc:
+    command: bin/groovydoc
+  groovysh:
+    command: bin/groovysh
+  groovyConsole:
+    command: bin/groovyConsole
+  java2groovy:
+    command: bin/java2groovy
+  grape:
+    command: bin/grape
+  groovy-docs:
+    command: groovy-docs.sh $SNAP/doc/html/
+
+parts:
+  groovy:
+    plugin: dump
+    source: "https://dl.bintray.com/groovy/maven/apache-groovy-sdk-$SNAPCRAFT_PROJECT_VERSION.zip"
+    source-subdir: "groovy-$SNAPCRAFT_PROJECT_VERSION"
+    source-checksum: "sha256/ea0daedf95f09ee7ff65303fd6e373c6502b2936e7616064c8abf9f74e1226b5"
+  groovy-docs:
+    plugin: dump
+    source: snap/local
