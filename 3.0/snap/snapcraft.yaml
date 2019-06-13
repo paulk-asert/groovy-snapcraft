@@ -14,7 +14,7 @@
 # limitations under the License.
 
 name: groovy
-version: "2.5.7"
+version: "3.0.0-beta-1"
 summary: The Apache Groovy programming language
 description: |
   This package is intended to bundle the latest version of Apache
@@ -54,7 +54,7 @@ apps:
   grape:
     command: bin/grape
   groovy-docs:
-    command: groovy-docs.sh $SNAP/doc/html/
+    command: groovy-docs.sh $SNAP/index.html
 
 parts:
   groovy:
