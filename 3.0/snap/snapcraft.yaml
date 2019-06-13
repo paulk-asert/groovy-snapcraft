@@ -61,7 +61,7 @@ parts:
     plugin: dump
     source: "https://dl.bintray.com/groovy/maven/apache-groovy-sdk-$SNAPCRAFT_PROJECT_VERSION.zip"
     source-subdir: "groovy-$SNAPCRAFT_PROJECT_VERSION"
-    source-checksum: "29d2cb7e11b7f6041daf02397bcdeee3eebeb1d753c7929bcbd28aebbd44024c"
+    source-checksum: "sha256/29d2cb7e11b7f6041daf02397bcdeee3eebeb1d753c7929bcbd28aebbd44024c"
   groovy-docs:
     plugin: dump
     source: snap/local
