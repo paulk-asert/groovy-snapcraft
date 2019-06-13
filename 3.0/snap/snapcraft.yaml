@@ -18,7 +18,7 @@ version: "3.0.0-beta-1"
 summary: The Apache Groovy programming language
 description: |
   This package is intended to bundle the latest version of Apache
-  Groovy in the 2.5.x stream of releases.
+  Groovy in the 3.0.x stream of releases.
 
   Groovy is like a super version of Java:
   * It supports most Java syntax but allows simpler syntax for many constructs
@@ -29,7 +29,7 @@ description: |
   It is free and open source and has a large community of users and developers
   around the world.
 
-  It requires Java 7 or later Java Development Kit installed.
+  It requires Java 8 or later Java Development Kit installed.
 
 confinement: classic
 grade: stable
@@ -61,7 +61,7 @@ parts:
     plugin: dump
     source: "https://dl.bintray.com/groovy/maven/apache-groovy-sdk-$SNAPCRAFT_PROJECT_VERSION.zip"
     source-subdir: "groovy-$SNAPCRAFT_PROJECT_VERSION"
-    source-checksum: "sha256/ea0daedf95f09ee7ff65303fd6e373c6502b2936e7616064c8abf9f74e1226b5"
+    source-checksum: "29d2cb7e11b7f6041daf02397bcdeee3eebeb1d753c7929bcbd28aebbd44024c"
   groovy-docs:
     plugin: dump
     source: snap/local
