@@ -17,7 +17,7 @@
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
-Name=Apache Groovy: groovysh
+Name=REPL for Apache Groovy (groovysh)
 Comment=REPL for Apache Groovy, a powerful easy to use language for the JVM
 Exec=groovy.groovysh %F
 Categories=Development

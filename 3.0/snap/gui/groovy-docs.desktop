@@ -17,7 +17,7 @@
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
-Name=Apache Groovy Documentation
+Name=Docs for Apache Groovy
 Comment=Local documentation for Apache Groovy
 Exec=groovy.groovy-docs
 Categories=Development

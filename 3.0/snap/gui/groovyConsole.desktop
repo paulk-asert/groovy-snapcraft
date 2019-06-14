@@ -13,11 +13,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
-Name=Apache Groovy: groovyConsole
+Name=Console for Apache Groovy (groovyConsole)
 Comment=Console for Apache Groovy, a powerful easy to use language for the JVM
 Categories=Development
 Icon=${SNAP}/meta/gui/groovy.png
