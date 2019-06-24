@@ -34,6 +34,7 @@ description: |
 confinement: classic
 grade: stable
 base: core18
+type: app
 architectures:
   - run-on: all
     build-on: [amd64, i386]

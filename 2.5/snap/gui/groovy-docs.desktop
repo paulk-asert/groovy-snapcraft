@@ -13,13 +13,12 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
-Name=Docs for Apache Groovy
+Name=Docs for Apache Groovy (groovy-docs)
 Comment=Local documentation for Apache Groovy
 Exec=groovy.groovy-docs
 Categories=Development
-Icon=${SNAP}/meta/gui/groovy.png
+Icon=${SNAP}/meta/gui/groovyDocs255.png
 Terminal=false

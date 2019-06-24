@@ -13,7 +13,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
@@ -21,5 +20,5 @@ Name=REPL for Apache Groovy (groovysh)
 Comment=REPL for Apache Groovy, a powerful easy to use language for the JVM
 Exec=groovy.groovysh %F
 Categories=Development
-Icon=${SNAP}/meta/gui/groovy.png
+Icon=${SNAP}/meta/gui/groovyRepl255.png
 Terminal=true

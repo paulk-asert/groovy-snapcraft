@@ -19,6 +19,6 @@ Encoding=UTF-8
 Name=Console for Apache Groovy (groovyConsole)
 Comment=Console for Apache Groovy, a powerful easy to use language for the JVM
 Categories=Development
-Icon=${SNAP}/meta/gui/groovy.png
+Icon=${SNAP}/meta/gui/groovyConsole255.png
 Exec=groovy.groovyConsole %F
 Terminal=false
