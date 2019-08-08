@@ -11,7 +11,7 @@ Publishing the snap:
 
 ```
 $ snapcraft push --release=3.0/beta --release=beta groovy_3.0.0-beta-3_all.snap
-$ snapcraft push --release=2.5/latest --release=latest groovy_2.5.8_all.snap
+$ snapcraft push --release=2.5/stable --release=stable groovy_2.5.8_all.snap
 ```
 
 Installing the snap:
