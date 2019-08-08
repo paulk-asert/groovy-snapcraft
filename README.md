@@ -1,11 +1,21 @@
 # groovy-snapcraft
 
-snapcraft snap --debug
+Making the snap:
 
-sudo snap install --classic --dangerous groovy_2.5.7_amd64.snap
+```
+$ snapcraft clean                       # if needed
+$ snapcraft snap --debug
+```
 
-Classic Confiment Request: Groovy
+Publishing the snap:
 
-As a general purpose programming language, Apache Groovy
-needs full access to whatever features the program is using
-including writing to files, accessing networks etc.
+```
+$ snapcraft push --release=3.0/beta --release=beta groovy_3.0.0-beta-3_all.snap
+$ snapcraft push --release=2.5/latest --release=latest groovy_2.5.8_all.snap
+```
+
+Installing the snap:
+
+```
+$ sudo snap install --classic --dangerous groovy_2.5.8_all.snap
+```
