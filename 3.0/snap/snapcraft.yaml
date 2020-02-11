@@ -14,7 +14,7 @@
 # limitations under the License.
 
 name: groovy
-version: "3.0.0-rc-2"
+version: "3.0.0"
 summary: The Apache Groovy programming language
 description: |
   This package is intended to bundle the latest version of Apache
@@ -62,7 +62,7 @@ parts:
     plugin: dump
     source: "https://dl.bintray.com/groovy/maven/apache-groovy-sdk-$SNAPCRAFT_PROJECT_VERSION.zip"
     source-subdir: "groovy-$SNAPCRAFT_PROJECT_VERSION"
-    source-checksum: "sha256/6267a5c91cb34ddc2704b919d771a56e66bfab46a8da5c1cab6acab72fa7b0e8"
+    source-checksum: "sha256/f4b2211e7651ed4ec7728c96c1e1961795c4a9de7b0cad6d399df8e92001d682"
   groovy-docs:
     plugin: dump
     source: snap/local
